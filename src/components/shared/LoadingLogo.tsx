@@ -4,7 +4,7 @@ type Props = {
   size?: number;
 };
 
-const LoadingLogo = ({ size = 100 }: Props) => {
+export const LoadingLogo = ({ size = 100 }: Props) => {
   return (
     <div className="h-full w-full flex justify-center items-center">
       <Image
@@ -17,5 +17,3 @@ const LoadingLogo = ({ size = 100 }: Props) => {
     </div>
   );
 };
-
-export default LoadingLogo;
